@@ -1,0 +1,17 @@
+check,entity,value,limit,violation,status
+machine_capacity,Станок M1,260.0,260.0,0.0,OK
+machine_capacity,Станок M2,202.829006,240.0,0.0,OK
+machine_capacity,Станок M3,300.0,300.0,0.0,OK
+machine_capacity,Станок M4,280.0,280.0,0.0,OK
+demand,Продукт A,14.18384,40.0,0.0,OK
+nonnegativity,Продукт A,14.18384,0.0,0.0,OK
+demand,Продукт B,47.192782,60.0,0.0,OK
+nonnegativity,Продукт B,47.192782,0.0,0.0,OK
+demand,Продукт C,30.0,30.0,0.0,OK
+nonnegativity,Продукт C,30.0,0.0,0.0,OK
+demand,Продукт D,24.780976,80.0,0.0,OK
+nonnegativity,Продукт D,24.780976,0.0,0.0,OK
+demand,Продукт E,50.0,50.0,0.0,OK
+nonnegativity,Продукт E,50.0,0.0,0.0,OK
+objective,recomputed_vs_solver,18002.535981,18002.535981,0.0,OK
+overall,max_violation,0.0,1e-07,0.0,OK

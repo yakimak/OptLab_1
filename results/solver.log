@@ -1,0 +1,101 @@
+======================================================================
+БАЗОВЫЙ СЦЕНАРИЙ
+======================================================================
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 9 rows; 5 cols; 25 nonzeros
+Coefficient ranges:
+  Matrix  [5e-01, 3e+00]
+  Cost    [7e+01, 2e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [3e+01, 3e+02]
+Presolving model
+4 rows, 5 cols, 20 nonzeros  0s
+4 rows, 5 cols, 20 nonzeros  0s
+Presolve reductions: rows 4(-5); columns 5(-0); nonzeros 20(-5) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          4    -1.8002535981e+04 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 4
+Objective value     : -1.8002535981e+04
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :          0.00
+
+Двойственные оценки ограничений:
+[-14.122023  -0.       -20.599114 -22.905501  -0.        -0.
+ -32.527085  -0.       -15.234458]
+
+Дефицитный сценарий:
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 9 rows; 5 cols; 25 nonzeros
+Coefficient ranges:
+  Matrix  [5e-01, 3e+00]
+  Cost    [7e+01, 2e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [3e+01, 3e+02]
+Presolving model
+4 rows, 5 cols, 20 nonzeros  0s
+4 rows, 5 cols, 20 nonzeros  0s
+Presolve reductions: rows 4(-5); columns 5(-0); nonzeros 20(-5) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          3    -1.6719827919e+04 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 3
+Objective value     : -1.6719827919e+04
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :          0.00
+
+Стрессовый сценарий:
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 9 rows; 5 cols; 25 nonzeros
+Coefficient ranges:
+  Matrix  [5e-01, 3e+00]
+  Cost    [7e+01, 2e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [3e+01, 3e+02]
+Presolving model
+4 rows, 5 cols, 20 nonzeros  0s
+4 rows, 5 cols, 20 nonzeros  0s
+Presolve reductions: rows 4(-5); columns 5(-0); nonzeros 20(-5) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          4    -1.5634402349e+04 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 4
+Objective value     : -1.5634402349e+04
+P-D objective error :  5.8170795152e-17
+HiGHS run time      :          0.00
+
+Контрактная перегрузка:
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 14 rows; 5 cols; 30 nonzeros
+Coefficient ranges:
+  Matrix  [5e-01, 3e+00]
+  Cost    [7e+01, 2e+02]
+  Bound   [0e+00, 0e+00]
+  RHS     [3e+01, 2e+02]
+Presolving model
+4 rows, 5 cols, 20 nonzeros  0s
+Problem status detected on presolve: Infeasible
+Model status        : Infeasible
+Objective value     :  0.0000000000e+00
+HiGHS run time      :          0.00
